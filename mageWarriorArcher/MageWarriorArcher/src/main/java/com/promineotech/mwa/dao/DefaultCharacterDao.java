@@ -89,8 +89,6 @@ public class DefaultCharacterDao extends DaoBase implements CharacterDao {
 		
 		/**
 		 *Fetches Character by name
-		 *CharacterResultsSetExtractor?
-		 *Builder?
 		 */
 		@Override
 		public List<Character> fetchCharacterByName(String name) {
@@ -116,7 +114,6 @@ public class DefaultCharacterDao extends DaoBase implements CharacterDao {
 
 		  /**
 		 *Fetches Character by Id
-		 *Returns SQL syntax error
 		 */
 		@Override
 		  public List<Character> fetchCharacterById(int character_id) {
